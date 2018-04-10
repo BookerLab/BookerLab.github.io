@@ -1,0 +1,76 @@
+@media screen and (min-width: 320px){
+    .mobile_menu {
+        display: block;
+    }
+
+    .desktop_menu {
+        display: none;
+    }
+
+    .mobile_header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        border-bottom: 1px solid #47454D;
+    }
+
+    .toggle_burger {
+        width: 24px;
+        height: 20px;
+    }
+
+    .toggle_burger i {
+        display: block;
+        height: 3px;
+        border-radius: 3px;
+        width: 24px;
+        background-color: #47454D;
+    }
+
+    .toggle_burger i:first-child {
+        width: 12px;
+    }
+
+    .toggle_burger i:nth-child(2) {
+        margin: 5.5px 0;
+    }
+
+    .toggle_burger i:last-child {
+        width: 16px;
+    }
+
+    .logotype {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .search_button {
+        background: url("../img/magnifying-glass-finder.svg");
+        width: 20px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .mobile_menu {
+        display: none;
+    }
+
+    .desktop_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        border-bottom: 1px solid #47454D;
+    }
+
+    .desktop_menu img {
+        height: 35px;
+    }
+
+    .logotype {
+        margin: 0;
+    }
+
+
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Oxygen;
+}
+
+body, header, footer, h1, h2, h3, h4, p, a, li, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  outline: none;
+  color: black;
+}
+
+a, input, button {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+select {
+  outline: none;
+  border: none;
+}
